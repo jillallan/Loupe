@@ -25,7 +25,7 @@ struct LoupeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PhotoView()
         }
         .modelContainer(sharedModelContainer)
     }
